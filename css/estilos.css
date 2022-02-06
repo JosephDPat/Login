@@ -1,0 +1,28 @@
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(45deg, #34ddc1, #231883);
+    min-height: 100vh;
+}
+
+.card {
+    width: 100%;
+}
+
+#title_ini {
+    /*font-family:'Segoe Script';
+font-size: 100px;
+color: black;*/
+    font-family: 'Mina', sans-serif;
+    font-size: 75px;
+    color: #fff;
+    background-image: linear-gradient(45deg, #365899 40%, #992a09 55%, #a76c51 80%, #a76c51 100%);
+    /*0, 35, 85, 100*/
+    -webkit-text-fill-color: transparent;
+    color: #fff;
+    margin-left: 40px;
+    text-align: center;
+}
